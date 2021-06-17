@@ -1,0 +1,345 @@
+
+*{
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.divtwelve{
+    /* display: flex; */
+    /* flex-direction: column; */
+   max-width:1260px;
+   margin: 0 auto;
+}
+
+.container-1{
+    display: flex;
+    width: 100%;
+} 
+.row{
+    display: flex;
+    width: 100%;
+}
+.col-30{
+    display: flex;
+    width: 30%;
+}
+
+.bg1{
+    background-color: red;
+}
+.bg2{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.nav{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     width: 100%;
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+.h1{
+    font-size: 57px;
+    color: white;
+    padding: 5% 9%;
+}
+.search-button{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ECECEE;
+    border: none;
+    border-radius: 14px;
+    width: 216px;
+    height: 22px;
+    align-items: center;
+    justify-content: space-around;
+}
+.search-or-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  justify-content: space-around;
+}
+.home-img{
+  width: 100%;
+  height: 600px;
+  background-image: url(/Home.jpg);
+  background-size: cover;
+  background-position-x: -421px;
+  padding: 10px 10px;
+}
+.design-box{
+
+  border: 1px solid #ECECEC;
+  text-align: center;
+  background-color: #ECECEC;
+  margin-top: 17px;
+  padding: 11px;
+  border-radius: 7%;
+  color: rgba(48,50,92,255);
+  width: 300px;
+  height: 300px;
+}
+.design-box:hover{
+  transform: translate(5px, -5px);
+  box-shadow:  5px 5px 20px;
+}
+.why-choose-buton{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    margin: 30px;
+}
+ .Why-chose-us{
+   height: 800px;
+   padding: 38px 38px;
+ }
+.button{
+    background-color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    padding: 5px 15px;
+    width: 134px;
+    height: 40px;
+    
+}
+.popular-product{
+  height: 600px;
+  background-color: #ECECEC;
+
+}
+/* .slick-prev .slick-arrow{
+color: red;
+} */
+
+
+/* .slick-prev, .slick-next {
+  color: red;
+  width: 50px;
+} */
+.icons-nav{
+  
+  width: 304px;
+  font-size: 25px;
+}
+.nav-icon-style{
+  color: white;
+}
+.nav-icon-style:hover{
+  color:rgb(82 90 133);;
+  transform: translate(5px, -5px);
+    box-shadow:  5px 5px 20px;
+}
+
+.frst-slider{
+  flex-direction: column;
+  background-color: white;
+  width: 70%;
+  padding: 7px;
+}
+.your-class{
+  display: flex;
+}
+.furniture-catagory{
+  width: 100%;
+    /* height: 400px; */
+    margin-top: 20px;
+}
+.furniture-catagory-text{
+  display: flex;
+  justify-content: center;
+  color: darkblue;
+}
+.sale-fifty{
+width: 50% !important;
+background-color: rgba(27,24,88,255);
+}
+.shop-button{
+  
+    font-size: 22px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(27,24,88,255);
+    margin-top: 40px;
+    padding: 10px 10px;
+
+}
+.tesimonial{
+  display: flex;
+    position: absolute;
+    bottom: 82%;
+    left: 36%;
+}
+.testemonial-one{
+  border: 1px solid white;
+  border-radius: 0px 56px;
+  background-color: white;
+}
+.tesimonial-one-pic{
+  display: flex;
+    position: absolute;
+}
+.tesimonial-two{
+  position: absolute;
+    bottom: 77%;
+    right: 41%;
+    top: -35%;
+}
+.tesimonial-tree{
+  position: absolute;
+  bottom: 77%;
+  right: 41%;
+  top: -35%;
+}
+.position-relative{
+  position: relative;
+}
+/* rgba(82,90,133,255) */
+.back-g-img{
+  background: linear-gradient(rgb(82 90 133 / 74%), rgb(82 90 133)),url(/back.jpg);
+    /* height: 400px; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+}
+.c-furniture{
+/* border: 1px solid black; */
+text-align: center;
+color: white;
+padding: 20px;
+}
+.bottom-icon{
+  font-size: 30px;
+  padding: 20px 20px;
+}
+.botom-hadding{
+  color: white;
+    padding: 26px 20px;
+    font-size: 23px;
+    position: relative;
+    border-radius: 8px;
+    background-color: rgb(82 90 133);
+}
+.copyright{
+  text-align: center;
+  color: white;
+  padding: 18px 0px;
+}
+.position{
+  position: absolute;
+    right: 44%;
+    font-size: 28px;
+    border-radius: 7px;
+    background-color: rgb(82 90 133);
+}
+/* .roni::after{
+  content:"?";
+} */
+.bottom-nav{
+  margin: 0 auto;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #767fa4;
+  color: white;
+  height: 44px;
+  padding: 10px 16px;
+  border-color: #767fa4;
+}
+.CATAGORIES{
+  padding: 0PX 14PX;
+}
+.C-FUR{
+  border: 1px solid #767fa4;
+    background-color: #767fa4;
+    margin: 0 auto;
+    width: 254px;
+    border-radius: 8px;
+    padding: 10px 10px;
+    font-size: 21px;
+}
+.what-our-client-says-about-us{
+  font-size: 30px;
+    text-align: center;
+    padding: 10;
+    padding: 35px 10px;
+    color: darkblue;
+}
+.catagories-page{
+  right: 25%;
+    border: 1px solid white;
+    background-color:white;
+    color: black;
+    position: fixed;
+    bottom: 36%;
+    display:none;
+}
+.catagories-img{
+  width: 200px;
+  padding: 10px 10px;
+
+}
+.catagories-text-new{
+  margin: auto;
+  padding: 10px 10px;
+}
+.show-catagories{
+  display: none;
+}
+/* .show-ho :hover + .show-catagories{
+display: block;
+} */
+.show-ho:hover .show-catagories {
+  display: block;
+  
+}
+.show-catagories:hover{
+  display: block;
+}
+.flex-direction-col {
+    flex-direction: column;
+  }
+  .flex-direction-col-row {
+    flex-direction: column;
+  }
+  .flex-direction-row-col {
+    flex-direction: row;
+  }
+  .flex-view {
+    display: flex;
+  }
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  .justify-content-c {
+    justify-content: center;
+  }
+  .justify-content-b {
+    justify-content: space-between;
+  }
+  .justify-content-a {
+    justify-content: space-around;
+  }
+  @media only screen and (max-width : 600px) {
+    .flex-direction-row-col {
+        flex-direction: column;
+      }
+
+  }

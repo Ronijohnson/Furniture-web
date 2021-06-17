@@ -1,0 +1,147 @@
+.twinty{
+    max-width:1260px;
+     margin: 0 auto;
+     height: 1000px;
+ }
+ body{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   *{
+     margin: 0px;
+     padding: 0%;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .flex-direction-col {
+    flex-direction: column;
+  }
+  .flex-direction-col-row {
+    flex-direction: column;
+  }
+  .flex-direction-row-col {
+    flex-direction: row;
+  }
+  .flex-view {
+    display: flex;
+  }
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  .justify-content-c {
+    justify-content: center;
+  }
+  .justify-content-b {
+    justify-content: space-between;
+  }
+  .justify-content-a {
+    justify-content: space-around;
+  }
+  .Top-nav{
+    background-color: rgba(27,24,88,255);
+    height: 71px;
+    color: white;
+  }
+  .account{
+    font-size: 52px;
+    position: absolute;
+    top: 21%;
+  }
+  .payment-icons{
+    background-color: white;
+    color: gray;
+  }
+  .your-information{
+    color: rgba(27,24,88,255);
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 11px;
+  }
+  .first-name{
+    width: 269px;
+    height: 48px;
+    border-radius: 8px;
+    padding-left: 18px;
+    border-color: gray;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+  }
+  .last-name{
+    width: 360px;
+    height: 48px;
+    border-radius: 8px;
+    padding-left: 18px;
+    border-color: gray;
+    font-size: 22px;
+    
+  }
+  .governorate{
+    width: 546px;
+    height: 45px;
+    border-radius: 8px;
+    border-color: gray;
+    padding-left: 18px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .homes-checkbox{
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .save-adress{
+    width: 204px;
+    height: 44px;
+    color: white;
+    background-color: rgba(27,24,88,255);
+    font-size: 17px;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+    
+  }
+  .shoping-card{
+    color: white;
+    font-size: 38px;
+    background-color:rgba(27,24,88,255) ;
+    width: 52px;
+    height: 43px;
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  .heading{
+    font-size: 23px;
+    color: rgba(27,24,88,255);
+    font-weight: bold;
+    margin-top: 6px;
+    margin-right: 23px;
+  }
+  .price{
+    font-weight: bold;
+    color:#00007d;
+  }
+  .total{
+    font-size: 21px;
+    font-weight: bold;
+    color: #00007d;
+  }
+  .box-style{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 8px;
+    height: 379px;
+    text-align: inherit;
+    margin-right: 12pc;
+    border-color: darkblue;
+    margin-top: 44px;
+}
+a:hover{
+    color: red;
+}
+.payment-icons:hover{
+    color: greenyellow;
+}
