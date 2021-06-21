@@ -132,11 +132,11 @@
   }
   .box-style{
     border: 1px solid black;
-    width: 336px;
+    width: 409px;
     border-radius: 8px;
     height: 403px;
     text-align: inherit;
-    margin-right: 9pc;
+    margin-right: 20px;
     border-color: darkblue;
     margin-top: 44px;
 }

@@ -183,11 +183,13 @@ background-color: rgba(27,24,88,255);
 }
 .tesimonial{
   display: flex;
-    position: absolute;
-    bottom: 82%;
-    left: 36%;
+  position: absolute;
+  bottom: 83%;
+  left: 30%;
 }
 .testemonial-one{
+  
+  height: 400px;
   border: 1px solid white;
   border-radius: 0px 56px;
   background-color: white;
@@ -198,15 +200,15 @@ background-color: rgba(27,24,88,255);
 }
 .tesimonial-two{
   position: absolute;
-    bottom: 77%;
-    right: 41%;
-    top: -35%;
+  bottom: 77%;
+  right: 23%;
+  top: -15%;
 }
 .tesimonial-tree{
   position: absolute;
   bottom: 77%;
-  right: 41%;
-  top: -35%;
+  right: 21%;
+  top: -16%;
 }
 .position-relative{
   position: relative;

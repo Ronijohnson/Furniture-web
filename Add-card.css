@@ -89,6 +89,7 @@
     color: gray;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-right: 5px;
   }
   .save-adress{
     width: 204px;
@@ -131,13 +132,14 @@
   }
   .box-style{
     border: 1px solid black;
-    width: 300px;
+    width: 397px;
     border-radius: 8px;
-    height: 379px;
+    height: 410px;
     text-align: inherit;
-    margin-right: 12pc;
+    margin-right: 20px;
     border-color: darkblue;
-    margin-top: 44px;
+    margin-top: 24px;
+}
 }
 a:hover{
     color: red;
